@@ -2,7 +2,7 @@ pipeline {
     agent any  // Use any available agent
 
     tools {
-        maven 'IBI22cs119'  
+        maven 'maven'  
     }
     stages {
         stage('Checkout') {
